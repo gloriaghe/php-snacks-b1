@@ -2,10 +2,6 @@
 
 
 <?php
-// $min= 1;
-// $max = 15;
-// $nItems = 15;
-
 
  function getArrayOfIntegers($min, $max, $nItems)
 {
