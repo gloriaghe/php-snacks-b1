@@ -79,3 +79,12 @@ for ($_i = 0; $_i < count($keys); $_i++) {
 ?>
 </body>
 </html>
+
+<!-- Con il ciclo Foreach -->
+<?php
+foreach($arr_posts as $date => $posts_of_date){
+    echo "<h1>$date(Con ciclo forEach)</h1>";
+    foreach ($posts_of_date as $post) {
+       echo "<div>{$post['title']} - {$post['author']} | {$post['text']} </div>";
+    }
+}
